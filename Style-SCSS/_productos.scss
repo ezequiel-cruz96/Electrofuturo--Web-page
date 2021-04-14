@@ -1,0 +1,256 @@
+/*  Sección 3-Productos */
+
+.ofertasContenedor {
+    height: 200px;
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 320px 320px 320px 10px;
+    grid-template-rows: 150px 150px 150px 150px; }
+  
+  .arregloBoton {
+    width: 150px;
+    height: 20px; }
+  
+  .ofertasContenedor2 {
+    height: 200px;
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: 150px 150px 150px 150px; }
+  
+  .ofertasPrincipales {
+    width: 300px;
+    height: 150px;
+    border: grey solid 1px; }
+  
+  .ofertasPrincipales:hover {
+    height: 150px;
+    border: blue solid 1px;
+    filter: saturate(300%);} 
+  /* EN ESTA SECCION VAN LOS COMPONENTES */
+
+  .ofertasContenedor3 {
+    height: 200px;
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 320px 320px 320px 10px;
+    grid-template-rows: 150px 150px 150px 150px; }
+  
+  .ofertasContenedor4 {
+    height: 200px;
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 320px 320px 320px 10px;
+    grid-template-rows: 150px 150px 150px 150px; }
+  
+  .ofertasContenedor5 {
+    height: 200px;
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 320px 320px 320px 10px;
+    grid-template-rows: 150px 150px 150px 150px; }
+  
+  .ofertasContenedor6 {
+    height: 200px;
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 320px 320px 320px 10px;
+    grid-template-rows: 150px 150px 150px 150px; }
+  
+  /* Titulos de componentes */
+  .titResistencias {
+    font-size: 30px;
+    text-align: center;
+    color: red; }
+  
+  .titCapacitores {
+    font-size: 30px;
+    text-align: center;
+    color: black solid; }
+  
+  .titLeds {
+    font-size: 30px;
+    text-align: center;
+    color: orangered; }
+  
+  .titMicros {
+    font-size: 30px;
+    text-align: center;
+    color: blue; }
+
+    /* Cartas de venta */
+
+  .carta{
+      display: grid;
+      width: 600px;
+      height:300px ;
+      border: solid gray 1px;
+      justify-items: center;
+      justify-content: center;
+  }
+  .carta:hover{
+  border: solid blue 1px;
+  filter: saturate(180%);
+  }
+  .card-body{
+      width: 300px;
+      height:250px;
+      margin-left: 100px; 
+  }
+  .card-text{
+      font-size: 15px;
+      font-weight: 600;
+  }
+  .card-text strong{
+      font-size: 20px;
+      font-style: none;
+  }
+  .carta__imagen{
+    filter: saturate(100%);
+      margin-top: 60px;
+      margin-left: 40px;
+      width: 250px;
+      height: 195px;
+      align-items: center;
+  }
+
+  /* Seccion cartas en el modal */
+.modal-content--cuerpo{
+  width: 700px;
+  margin-left: -100px;
+  background-color: white;
+}
+
+.btn__arreglo{
+
+  width: 140px;
+  height: 38px;
+  display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s;
+}
+.footer__producto{
+  margin-top: 60px;
+}
+
+/* Mobile First */
+
+@media (max-width: 576px) {
+
+  body{
+    width: 100%;
+    height: 100%;
+  }
+
+  .ofertasPrincipales:hover {
+    height: 150px;
+    border: blue solid 1px;
+    filter: saturate(300%);} 
+
+    .ofertasContenedor {
+      height: 200px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: 800px 800px 800px 800px;
+    }
+    .btn{
+      visibility: hidden;
+    }
+    .btn__arreglo{
+      visibility: hidden;
+    }
+    .ofertasContenedor2 {
+      visibility: hidden;}
+    
+    .ofertasPrincipales {
+      width: 300px;
+      height: 150px;
+      border: grey solid 1px; }
+    
+    .ofertasPrincipales:hover {
+      height: 150px;
+      border: blue solid 1px;
+      filter: saturate(300%);} 
+  
+    .ofertasContenedor3 {
+      height: 200px;
+      display: grid;
+      margin-top: 500px;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: 800px 800px 800px 800px}
+    
+    .ofertasContenedor4 {
+      height: 200px;
+      display: grid;
+      margin-top: 500px;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: 800px 800px 800px 800px }
+    
+    .ofertasContenedor5 {
+      height: 200px;
+      display: grid;
+      margin-top: 500px;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: 800px 800px 800px 800px }
+    
+    .ofertasContenedor6 {
+      height: 200px;
+      display: grid;
+      margin-top: 500px;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: 800px 800px 800px 800px }
+    
+    /* Titulos de componentes */
+    .titResistencias {
+      visibility: hidden;
+      font-size: 30px;
+      text-align: center;
+      color: red; }
+    
+    .titCapacitores {
+      visibility: hidden;
+      font-size: 30px;
+      text-align: center;
+      color: black solid; }
+    
+    .titLeds {
+      visibility: hidden;
+      font-size: 30px;
+      text-align: center;
+      color: orangered; }
+    
+    .titMicros {
+      visibility: hidden;
+      font-size: 30px;
+      text-align: center;
+      color: blue; }
+
+      .footer__producto{
+        margin-top: 500px;
+      }
+    .redes {
+    visibility: hidden;
+    }
+    .lista_movil{
+      visibility: hidden;
+    }
+}/* Fin mobile firts */

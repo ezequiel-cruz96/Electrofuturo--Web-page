@@ -1,0 +1,130 @@
+/*  Sección 2-¿Quienes somos? */
+.hQuienes {
+    color: #2b74e2; }
+  
+.quienesSomos-1 {
+  display: flex;
+  align-items: center;
+  font-size: 24px; }
+
+.quienesSomos-1__imagen {
+  width: 800px;
+  height: 400px;
+  margin-left: 10px; }
+
+.quienesSomos-2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 24px; }
+
+.quienesSomos-2__imagen {
+  width: 800px;
+  height: 400px;
+  margin-left: 10px; }
+
+.reseñas {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 400px 300px 300px 300px;
+  grid-template-rows: 200px 300px 150px 150px;
+  justify-items: center; }
+
+.reseñas__imagenCliente {
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  border: gray solid 1px; }
+
+.comentarios__cuadro{
+display: flex;
+flex-direction: row;
+width: 500px;
+height: 300px;;
+}
+.comentarios__cuadro--p{
+  margin-top: 60px;
+  margin-left: 5px;
+  font-size: 20px;
+  transition: height 4s;
+  }
+  .comentarios__cuadro--p:hover{
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+  }
+
+  .comentario__grid{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 600px 030px; 
+    grid-template-rows: 250px 250x; 
+}
+
+@media (max-width: 576px) {
+
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  .quienesSomos-1 {
+    display: flex;
+    align-items: center;
+    font-size: 15px; }
+  
+  .quienesSomos-1__imagen {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px; }
+  
+  .quienesSomos-2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 15px; }
+  
+  .quienesSomos-2__imagen {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px; }
+  
+  .reseñas {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 400px 300px 300px 300px;
+    grid-template-rows: 200px 300px 150px 150px;
+    justify-items: center; }
+  
+  .reseñas__imagenCliente {
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border: gray solid 1px; }
+  
+  .comentarios__cuadro{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 300px;;
+  }
+  .comentarios__cuadro--p{
+    margin-top: 60px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: height 4s;
+    }
+    .comentarios__cuadro--p:hover{
+      background-color: rgb(0, 132, 255);
+      border-radius: 10px;
+    }
+  
+    .comentario__grid{
+      margin-left:10px;
+      display: grid;
+      grid-template-columns: 600px 30px; 
+      grid-template-rows: 250px 250x; 
+  }
+  .comentario_mobil{
+    visibility: hidden;
+  }
+  
+}/* Fin mobile firts */
